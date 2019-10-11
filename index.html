@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number writing training</title>
+  <style> body {padding: 0; margin: 0;} </style>
+  <script src="./p5.min.js"></script>
+  <script src="./addons/p5.collide2d.min.js"></script>
+  <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+  <script src="sketch.js"></script>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body class="blue lighten-4">
+  <div class="container">
+    <div id="canvasholder">
+    </div>
+  </div>
+  <div class="container">
+    <button class="btn waves-effect waves-light" value="0" onclick="bpress(this.value)">0</button>
+    <button class="btn waves-effect waves-light" value="1" onclick="bpress(this.value)">1</button>
+    <button class="btn waves-effect waves-light" value="2" onclick="bpress(this.value)">2</button>
+    <button class="btn waves-effect waves-light" value="3" onclick="bpress(this.value)">3</button>
+    <button class="btn waves-effect waves-light" value="4" onclick="bpress(this.value)">4</button>
+    <button class="btn waves-effect waves-light" value="5" onclick="bpress(this.value)">5</button>
+    <button class="btn waves-effect waves-light" value="6" onclick="bpress(this.value)">6</button>
+    <button class="btn waves-effect waves-light" value="7" onclick="bpress(this.value)">7</button>
+    <button class="btn waves-effect waves-light" value="8" onclick="bpress(this.value)">8</button>
+    <button class="btn waves-effect waves-light" value="9" onclick="bpress(this.value)">9</button>
+    <button class="btn waves-effect waves-light" value="+" onclick="bpress(this.value)">+</button>
+    <button class="btn waves-effect waves-light" value="-" onclick="bpress(this.value)">-</button>
+    <button class="btn waves-effect waves-light" value="/" onclick="bpress(this.value)">/</button>
+    <button class="btn waves-effect waves-light" value="*" onclick="bpress(this.value)">*</button>
+  </div>
+  </div>
+</body>
+
+</html>

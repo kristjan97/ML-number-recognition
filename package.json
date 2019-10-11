@@ -1,0 +1,24 @@
+{
+  "name": "drawnworkbook",
+  "version": "1.0.0",
+  "description": "A math work book with machine learning integration",
+  "main": "server.js",
+  "dependencies": {
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndragon798/DrawnWorkBook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndragon798/DrawnWorkBook/issues"
+  },
+  "homepage": "https://github.com/ndragon798/DrawnWorkBook#readme"
+}
