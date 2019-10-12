@@ -1,7 +1,7 @@
 #cleans the insignificant data and converts it over to a csv, this is garbage basically
-def reformat_data():
+def reformat_data(file_name):
     return_list = []
-    file = open('testdata.txt')
+    file = open(file_name)
     for line in file:
         split_line = line.split(",")
         label = split_line[0][1]
